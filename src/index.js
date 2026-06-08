@@ -5,6 +5,7 @@ import loadAbout from "./about.js";
 const home = document.getElementById('homeNAV');
 const menu = document.getElementById('menuNAV');
 const about = document.getElementById('aboutNAV');
+const content = document.getElementById('content');
 console.log("Hello");
 let activeButton=home;
 activeButton.classList.add('active');
